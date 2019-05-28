@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <script language="javascript" type="text/javascript" src="js/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/p5.dom.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/astar-maze-ing.js"></script>
+</head>
+
+<body>
+  <div class="left-div">
+    <h1>a*-maze-ing</h1>
+    <h3>Algorithms: <i>A* Pathfinding, Randomized <br />Depth-First Search, Recursive Backtracker</i></h3>
+    <div class="buttons-div">
+      <button id="maze_btn" class="button button--moema button--text-thick button--text-upper button--size-s"
+        onclick="createMaze()">Create Maze</button>
+      <button id="astar_btn" class="button button--moema button--text-thick button--text-upper button--size-s"
+        onclick="findPath()">Find path</button>
+    </div>
+    <h1>FPS: <span id="fps"></span></h1>
+    <h4>
+      <i>Scroll mouse wheel to change the speed.</i>
+    </h4>
+  </div>
+
+</body>
+
+</html>
